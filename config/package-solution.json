@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fa-qs-client-side-solution",
+    "id": "17052c45-3a14-41c7-9e74-4a7e929ed49e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FAQs description"
+      },
+      "longDescription": {
+        "default": "FAQs description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fa-qs Feature",
+        "description": "The feature that activates elements of the fa-qs solution.",
+        "id": "820d370b-6f59-4f2c-b4a1-e7a6ecd9afaa",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fa-qs.sppkg"
+  }
+}
