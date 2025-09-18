@@ -1,6 +1,10 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
   "port": 4321,
   "https": true,
-  "initialPage": "https://{tenantDomain}/_layouts/workbench.aspx"
+  "initialPage": "https://fmeniteroi.sharepoint.com/sites/equipe-modelo-arvore/_layouts/15/workbench.aspx",
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://fmeniteroi.sharepoint.com/sites/equipe-modelo-arvore/_layouts/15/workbench.aspx"
+    }
+  }
 }
