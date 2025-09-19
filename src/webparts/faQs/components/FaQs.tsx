@@ -29,25 +29,18 @@ const FaQs: React.FC<IFaQsProps> = () => {
       answer: <>O DTI é responsável pelo parque tecnológico, portanto será possível abrir chamado para quaisquer solicitações referentes a rede e internet, computadores, impressoras, softwares, entre outros. Caso queira saber mais sobre os serviços do DTI, acesse o catálogo de serviços, disponivel em: <a href="https://fmeniteroi.sharepoint.com/:w:/r/sites/DepartamentodeTecnologiadaInformao-Educacao/_layouts/15/doc2.aspx?sourcedoc=%7BA1D72198-F169-4C12-8A43-7E9F77D3B11D%7D&file=Catalogo%20de%20Servi%C3%A7os%20de%20TI%20%20consolidado%20II.docx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1758217490959&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=8a03f350-c940-4827-a5d0-65948c8622b2&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=25384cc8-c19c-49d1-a26e-b94635c9f74c" target="_blank" rel="noreferrer">catálogo de serviços DTI</a>.</>
     },
     {
-      question: 'Esqueci minha senha, como redefinir?',
-      answer: 'Clique em "Esqueci minha senha" na página de login. Informe seu CPF ou e-mail cadastrado e você receberá um link para redefinir sua senha. Por questões de segurança, o link é válido por 1 hora. Caso não receba o e-mail, verifique sua pasta de spam ou entre em contato conosco. O DTI também atende solicitações de redefinição de senha de e-mail e de rede.'
+      question: 'O que acontece quando a internet da escola cai?',
+      answer: 'Pedimos que aguarde até 24 horas para que o serviço seja restabelecido. Se, após esse prazo, a conexão ainda não voltar, entre em contato com o DTI para que possamos acionar a empresa responsável e agilizar a solução.'
+
+
+
+
     },
     {
-      question: 'Quais documentos preciso para me cadastrar?',
-      answer: 'Para cadastro completo no portal, você precisará de: CPF, documento de identidade com foto, comprovante de residência atualizado e e-mail pessoal. Alguns serviços específicos podem requerer documentação adicional, que será solicitada durante o processo.'
+      question: 'Esqueci a senha do e-mail institucional. O que devo fazer para recuperar?',
+      answer: 'Hoje existem duas formas de recuperar a senha do e-mail institucional: a primeira é pelo E-Niterói, onde você abre um chamado para solicitar a redefinição, e a segunda é enviando um e-mail para o DTI no endereço dti@educacao.niteroi.rj.gov.br, para abertura de chamado.' 
     },
-    {
-      question: 'Como emitir segunda via de IPTU?',
-      answer: 'Acesse sua conta no portal, vá até a seção "Serviços Tributários" e selecione "IPTU". Lá você poderá visualizar e emitir a segunda via do boleto, além de consultar débitos e condições de pagamento. O documento estará disponível para download em formato PDF.'
-    },
-    {
-      question: 'Meus dados estão protegidos no portal?',
-      answer: 'Sim, utilizamos protocolos de segurança avançados e criptografia SSL para proteger todas as informações. Seguimos rigorosamente a Lei Geral de Proteção de Dados (LGPD) e realizamos auditorias regulares de segurança. Seus dados são utilizados exclusivamente para prestação de serviços municipais.'
-    },
-    {
-      question: 'Como agendar atendimento presencial?',
-      answer: 'Através do portal, na seção "Agendamento", você pode selecionar o serviço desejado, a unidade de atendimento e o horário disponível. Você receberá um comprovante por e-mail com QR Code para apresentação no local. Chegue com 10 minutos de antecedência.'
-    }
+    
   ];
 
   return (
